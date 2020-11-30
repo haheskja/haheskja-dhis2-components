@@ -1,0 +1,41 @@
+{
+  "name": "haheskja-components",
+  "version": "1.0.0",
+  "description": "A new testing library",
+  "main": "build/cjs/lib.js",
+  "module": "build/es/lib.js",
+  "scripts": {
+    "build": "d2-app-scripts build"
+  },
+  "keywords": [
+    "dhis2-component-search"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dhis2/cli-app-scripts": "^5.5.0",
+    "react": "^17.0.1"
+  },
+  "dhis2ComponentSearch": {
+    "language": "react",
+    "components": [
+      {
+        "name": "Organizational Unit Tree",
+        "export": "OrgTree",
+        "description": "A simple OrgTree",
+        "dhis2Version": [
+          "32.0.0",
+          "32.1.0"
+        ]
+      },
+      {
+        "name": "Sidebar",
+        "export": "Sidebar",
+        "description": "A sidebar for sub-menus",
+        "dhis2Version": [
+          "32.1.0"
+        ]
+      }
+    ]
+   }
+}

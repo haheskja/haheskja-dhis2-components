@@ -1,5 +1,5 @@
 {
-  "name": "haheskja-components",
+  "name": "haheskja-dhis2-components",
   "version": "1.0.0",
   "description": "A new testing library",
   "main": "build/cjs/lib.js",
@@ -10,6 +10,10 @@
   "keywords": [
     "dhis2-component-search"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/haheskja/haheskja-dhis2-components.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
